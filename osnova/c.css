@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.exit{
+    border: none;
+    background: #ffff;
+}
+.fon{
+    display: flex;
+    justify-content: center;
+}
+.fon img{
+    width: 1380px;
+    height: 440px;
+    position: absolute;
+    z-index: -1;
+}
+.btn{
+    background: #00ff80;
+}
+
+.knopka{
+width: 200px;
+    height: 50px;
+}
+
+
+
+.vigoda{
+    display: block;
+    justify-content: center;
+    margin: auto;
+    width: 1200px;
+    height: 920px;
+    padding-top: 100px;
+}
+.baner{
+    height: 100px;
+    width: 100%;
+    
+}
+.baner span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+   
+    line-height: 28px;
+}
+.navig{
+    height: 100px;
+    width: 100%;
+}
+.strelki img{
+    position: absolute;
+    width: 67%;
+    margin: 20px 0px 0px 20px;
+}
+
+.ekonom{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.bd-example{
+    width: 90%;
+    margin: auto;
+    justify-items: end;
+    align-self: flex-end;
+}
+
+
+.nav-link{
+    color: #8ea3e7;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.nav-link:hover{
+    color: #264cca;
+    
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.exit{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.exit:hover{
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+#svz{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#svz:hover{
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+   background: none;
+}
+
+
+.col{
+    padding-top: 100px;
+}
+
+.col span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 10px;
+    
+}
+.col button{
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    padding-left: 20px;
+    height: 100px;
+    background: #e2e6f3;
+    border-radius: 15px;
+    border: none;
+    margin:40px 0px 0px 0px;
+}
+
+.textt h2{
+    padding-left: 15px;
+    line-height: 0px;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.textt p{
+    font-size: 19px;
+    padding-left: 15px;
+    padding-top: 20px;
+    line-height: 0px;
+    align-items: center;
+    text-align: center;
+}
+.infa{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+}
+
+.kurtka{
+    width: 33%;
+}
+.kurtka img{
+    position: absolute;
+    z-index: -1;
+}
+.kur{
+    position: relative;
+    width: 460px;
+
+}
+
+
+
+.minitex p{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-top: 20px;
+}
+.minitex h2{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+
+
+
+
+
+.primusestva{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 90px;
+}
+.per{
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kalk{
+    margin: auto;
+    width: 77%;
+    padding-top: 100px;
+}
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: auto;
+    padding-top: 5px;
+}
+.d{
+    display: flex;
+}
+.txt-kalk span{
+    font-size: 33px;
+    font-weight: 700;
+}
+.col-2 span{
+    font-size: 12px;
+    
+}
+
+
+
+.var-dost{
+    width: 77%;
+    margin: auto;
+}
+.row3{
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+}
+.col3{
+    align-items: center;
+}
+.col3 p{
+    line-height: 0%;
+    font-size: 12px;
+}
+.col3 span{
+    line-height: 0%;
+    font-weight: 700;
+}
+
+.row3{
+    height: 80px;
+     background: rgb(255, 255, 255);
+     border-radius: 15px; 
+}
+
+
+
+
+
+
+
+
+
+.tovars{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+}
+.containerr{
+    
+}
+.roww{
+    display: flex;
+   justify-content: end;
+    padding: 0;
+}
+.coll{
+    padding: 0px;
+    width: 23%;
+    height: 33%;
+}
+.coll span{
+font-weight: 700;
+}
+.coll p{
+    font-size: 13px;
+    line-height: 25px;
+}
+.knopka button{
+    padding: 0;
+}

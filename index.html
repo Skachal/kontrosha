@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Занимает всю высоту экрана */
+            background: linear-gradient(to right, #ffffff, #cccccc); /* Градиент фона */
+            font-family: Arial, sans-serif;
+        }
+        .os {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон */
+            padding: 20px;
+            border-radius: 15px; /* Закругленные углы */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Тень */
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #333; /* Цвет заголовка */
+        }
+        button {
+            background-color: #8ea3e7; /* Цвет кнопки */
+            color: white; /* Цвет текста кнопки */
+            border: none; /* Убираем рамку */
+            padding: 10px 20px; /* Отступы кнопки */
+            border-radius: 10px; /* Закругленные углы кнопки */
+            font-size: 16px; /* Размер шрифта */
+            cursor: pointer; /* Указатель курсора */
+            transition: transform 0.2s ease, background-color 0.3s ease; /* Анимация */
+        }
+        button:hover {
+            transform: translateY(-5px) scale(1.05); /* Подъем и увеличение */
+            background-color: #264cca; /* Цвет кнопки при наведении */
+        }
+    </style>
+</head>
+<body>
+    <div class="os">
+        <h1>Добро пожаловать на мой сайт!</h1>
+        <button onclick="window.location.href='osnova/index.html'">Перейти на Основа</button>
+    </div>
+    <script src="script.js"></script> <!-- Подключите ваш JS файл, если есть -->
+</body>
+</html>

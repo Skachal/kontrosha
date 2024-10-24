@@ -1,0 +1,94 @@
+.card img{
+    position: absolute;
+    z-index: 0;
+}
+.card span{
+    z-index: 1;
+    width: 90%;
+    text-align: start;
+    align-self: flex-end;
+    color: #ffff;
+    padding-top: 24px;
+}
+.card h2,h4{
+    z-index: 1;
+    width: 90%;
+    text-align: start;
+    align-self: flex-end;
+    color: #ffff;
+    padding-top: 14px;
+}
+.card button{
+    z-index: 1;
+    width: 20%;
+    height: 46px;
+    text-align: start;
+    color: #ffff;
+    padding-top: 14px;
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 35px;
+}
+
+
+
+.nav-link{
+    color: #8ea3e7;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.nav-link:hover{
+    color: #264cca;
+    
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.exit{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.exit:hover{
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+#svz{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#svz:hover{
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+   background: none;
+}
+
+
+.pokup{
+    display: block;
+    padding-top: 95px;
+    width: 70%;
+    margin: auto;
+}
+.txt-pokup h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+.txt-pokup p{
+    font-size: 13px;
+}
+.soedinitel{
+    display: flex;
+    text-align: center;
+}
+.soedinitel h1{
+    font-size: 75px;
+    font-weight: 400;
+}
+.soedinitel h3{
+    align-self: center;
+    padding-left: 15px;
+}
+.soedinitel img{
+    padding-left: 15px;
+}
+.col p{
+    font-size: 12px;
+    padding-top: 10px;
+}
